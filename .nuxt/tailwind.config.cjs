@@ -12,8 +12,12 @@ module.exports = {
       "inherit": "inherit",
       "current": "currentColor",
       "transparent": "transparent",
-      "black": "#000",
-      "white": "#fff",
+      "black": {
+        "60": "#2E2E32",
+        "80": "#181818",
+        "100": "#000000"
+      },
+      "white": "#FFFFFF",
       "slate": {
         "50": "#f8fafc",
         "100": "#f1f5f9",
@@ -134,18 +138,7 @@ module.exports = {
         "800": "#3f6212",
         "900": "#365314"
       },
-      "green": {
-        "50": "#f0fdf4",
-        "100": "#dcfce7",
-        "200": "#bbf7d0",
-        "300": "#86efac",
-        "400": "#4ade80",
-        "500": "#22c55e",
-        "600": "#16a34a",
-        "700": "#15803d",
-        "800": "#166534",
-        "900": "#14532d"
-      },
+      "green": "#6A8469",
       "emerald": {
         "50": "#ecfdf5",
         "100": "#d1fae5",
@@ -230,18 +223,7 @@ module.exports = {
         "800": "#5b21b6",
         "900": "#4c1d95"
       },
-      "purple": {
-        "50": "#faf5ff",
-        "100": "#f3e8ff",
-        "200": "#e9d5ff",
-        "300": "#d8b4fe",
-        "400": "#c084fc",
-        "500": "#a855f7",
-        "600": "#9333ea",
-        "700": "#7e22ce",
-        "800": "#6b21a8",
-        "900": "#581c87"
-      },
+      "purple": "#CE92A9",
       "fuchsia": {
         "50": "#fdf4ff",
         "100": "#fae8ff",
@@ -447,8 +429,12 @@ module.exports = {
       "inherit": "inherit",
       "current": "currentColor",
       "transparent": "transparent",
-      "black": "#000",
-      "white": "#fff",
+      "black": {
+        "60": "#2E2E32",
+        "80": "#181818",
+        "100": "#000000"
+      },
+      "white": "#FFFFFF",
       "slate": {
         "50": "#f8fafc",
         "100": "#f1f5f9",
@@ -569,18 +555,7 @@ module.exports = {
         "800": "#3f6212",
         "900": "#365314"
       },
-      "green": {
-        "50": "#f0fdf4",
-        "100": "#dcfce7",
-        "200": "#bbf7d0",
-        "300": "#86efac",
-        "400": "#4ade80",
-        "500": "#22c55e",
-        "600": "#16a34a",
-        "700": "#15803d",
-        "800": "#166534",
-        "900": "#14532d"
-      },
+      "green": "#6A8469",
       "emerald": {
         "50": "#ecfdf5",
         "100": "#d1fae5",
@@ -665,18 +640,7 @@ module.exports = {
         "800": "#5b21b6",
         "900": "#4c1d95"
       },
-      "purple": {
-        "50": "#faf5ff",
-        "100": "#f3e8ff",
-        "200": "#e9d5ff",
-        "300": "#d8b4fe",
-        "400": "#c084fc",
-        "500": "#a855f7",
-        "600": "#9333ea",
-        "700": "#7e22ce",
-        "800": "#6b21a8",
-        "900": "#581c87"
-      },
+      "purple": "#CE92A9",
       "fuchsia": {
         "50": "#fdf4ff",
         "100": "#fae8ff",
@@ -786,8 +750,12 @@ module.exports = {
       "inherit": "inherit",
       "current": "currentColor",
       "transparent": "transparent",
-      "black": "#000",
-      "white": "#fff",
+      "black": {
+        "60": "#2E2E32",
+        "80": "#181818",
+        "100": "#000000"
+      },
+      "white": "#FFFFFF",
       "slate": {
         "50": "#f8fafc",
         "100": "#f1f5f9",
@@ -908,18 +876,7 @@ module.exports = {
         "800": "#3f6212",
         "900": "#365314"
       },
-      "green": {
-        "50": "#f0fdf4",
-        "100": "#dcfce7",
-        "200": "#bbf7d0",
-        "300": "#86efac",
-        "400": "#4ade80",
-        "500": "#22c55e",
-        "600": "#16a34a",
-        "700": "#15803d",
-        "800": "#166534",
-        "900": "#14532d"
-      },
+      "green": "#6A8469",
       "emerald": {
         "50": "#ecfdf5",
         "100": "#d1fae5",
@@ -1004,18 +961,7 @@ module.exports = {
         "800": "#5b21b6",
         "900": "#4c1d95"
       },
-      "purple": {
-        "50": "#faf5ff",
-        "100": "#f3e8ff",
-        "200": "#e9d5ff",
-        "300": "#d8b4fe",
-        "400": "#c084fc",
-        "500": "#a855f7",
-        "600": "#9333ea",
-        "700": "#7e22ce",
-        "800": "#6b21a8",
-        "900": "#581c87"
-      },
+      "purple": "#CE92A9",
       "fuchsia": {
         "50": "#fdf4ff",
         "100": "#fae8ff",
@@ -1140,8 +1086,12 @@ module.exports = {
       "inherit": "inherit",
       "current": "currentColor",
       "transparent": "transparent",
-      "black": "#000",
-      "white": "#fff",
+      "black": {
+        "60": "#2E2E32",
+        "80": "#181818",
+        "100": "#000000"
+      },
+      "white": "#FFFFFF",
       "slate": {
         "50": "#f8fafc",
         "100": "#f1f5f9",
@@ -1262,18 +1212,7 @@ module.exports = {
         "800": "#3f6212",
         "900": "#365314"
       },
-      "green": {
-        "50": "#f0fdf4",
-        "100": "#dcfce7",
-        "200": "#bbf7d0",
-        "300": "#86efac",
-        "400": "#4ade80",
-        "500": "#22c55e",
-        "600": "#16a34a",
-        "700": "#15803d",
-        "800": "#166534",
-        "900": "#14532d"
-      },
+      "green": "#6A8469",
       "emerald": {
         "50": "#ecfdf5",
         "100": "#d1fae5",
@@ -1358,18 +1297,7 @@ module.exports = {
         "800": "#5b21b6",
         "900": "#4c1d95"
       },
-      "purple": {
-        "50": "#faf5ff",
-        "100": "#f3e8ff",
-        "200": "#e9d5ff",
-        "300": "#d8b4fe",
-        "400": "#c084fc",
-        "500": "#a855f7",
-        "600": "#9333ea",
-        "700": "#7e22ce",
-        "800": "#6b21a8",
-        "900": "#581c87"
-      },
+      "purple": "#CE92A9",
       "fuchsia": {
         "50": "#fdf4ff",
         "100": "#fae8ff",
@@ -1411,8 +1339,12 @@ module.exports = {
       "inherit": "inherit",
       "current": "currentColor",
       "transparent": "transparent",
-      "black": "#000",
-      "white": "#fff",
+      "black": {
+        "60": "#2E2E32",
+        "80": "#181818",
+        "100": "#000000"
+      },
+      "white": "#FFFFFF",
       "slate": {
         "50": "#f8fafc",
         "100": "#f1f5f9",
@@ -1533,18 +1465,7 @@ module.exports = {
         "800": "#3f6212",
         "900": "#365314"
       },
-      "green": {
-        "50": "#f0fdf4",
-        "100": "#dcfce7",
-        "200": "#bbf7d0",
-        "300": "#86efac",
-        "400": "#4ade80",
-        "500": "#22c55e",
-        "600": "#16a34a",
-        "700": "#15803d",
-        "800": "#166534",
-        "900": "#14532d"
-      },
+      "green": "#6A8469",
       "emerald": {
         "50": "#ecfdf5",
         "100": "#d1fae5",
@@ -1629,18 +1550,7 @@ module.exports = {
         "800": "#5b21b6",
         "900": "#4c1d95"
       },
-      "purple": {
-        "50": "#faf5ff",
-        "100": "#f3e8ff",
-        "200": "#e9d5ff",
-        "300": "#d8b4fe",
-        "400": "#c084fc",
-        "500": "#a855f7",
-        "600": "#9333ea",
-        "700": "#7e22ce",
-        "800": "#6b21a8",
-        "900": "#581c87"
-      },
+      "purple": "#CE92A9",
       "fuchsia": {
         "50": "#fdf4ff",
         "100": "#fae8ff",
@@ -1682,8 +1592,12 @@ module.exports = {
       "inherit": "inherit",
       "current": "currentColor",
       "transparent": "transparent",
-      "black": "#000",
-      "white": "#fff",
+      "black": {
+        "60": "#2E2E32",
+        "80": "#181818",
+        "100": "#000000"
+      },
+      "white": "#FFFFFF",
       "slate": {
         "50": "#f8fafc",
         "100": "#f1f5f9",
@@ -1804,18 +1718,7 @@ module.exports = {
         "800": "#3f6212",
         "900": "#365314"
       },
-      "green": {
-        "50": "#f0fdf4",
-        "100": "#dcfce7",
-        "200": "#bbf7d0",
-        "300": "#86efac",
-        "400": "#4ade80",
-        "500": "#22c55e",
-        "600": "#16a34a",
-        "700": "#15803d",
-        "800": "#166534",
-        "900": "#14532d"
-      },
+      "green": "#6A8469",
       "emerald": {
         "50": "#ecfdf5",
         "100": "#d1fae5",
@@ -1900,18 +1803,7 @@ module.exports = {
         "800": "#5b21b6",
         "900": "#4c1d95"
       },
-      "purple": {
-        "50": "#faf5ff",
-        "100": "#f3e8ff",
-        "200": "#e9d5ff",
-        "300": "#d8b4fe",
-        "400": "#c084fc",
-        "500": "#a855f7",
-        "600": "#9333ea",
-        "700": "#7e22ce",
-        "800": "#6b21a8",
-        "900": "#581c87"
-      },
+      "purple": "#CE92A9",
       "fuchsia": {
         "50": "#fdf4ff",
         "100": "#fae8ff",
@@ -2005,8 +1897,12 @@ module.exports = {
       "inherit": "inherit",
       "current": "currentColor",
       "transparent": "transparent",
-      "black": "#000",
-      "white": "#fff",
+      "black": {
+        "60": "#2E2E32",
+        "80": "#181818",
+        "100": "#000000"
+      },
+      "white": "#FFFFFF",
       "slate": {
         "50": "#f8fafc",
         "100": "#f1f5f9",
@@ -2127,18 +2023,7 @@ module.exports = {
         "800": "#3f6212",
         "900": "#365314"
       },
-      "green": {
-        "50": "#f0fdf4",
-        "100": "#dcfce7",
-        "200": "#bbf7d0",
-        "300": "#86efac",
-        "400": "#4ade80",
-        "500": "#22c55e",
-        "600": "#16a34a",
-        "700": "#15803d",
-        "800": "#166534",
-        "900": "#14532d"
-      },
+      "green": "#6A8469",
       "emerald": {
         "50": "#ecfdf5",
         "100": "#d1fae5",
@@ -2223,18 +2108,7 @@ module.exports = {
         "800": "#5b21b6",
         "900": "#4c1d95"
       },
-      "purple": {
-        "50": "#faf5ff",
-        "100": "#f3e8ff",
-        "200": "#e9d5ff",
-        "300": "#d8b4fe",
-        "400": "#c084fc",
-        "500": "#a855f7",
-        "600": "#9333ea",
-        "700": "#7e22ce",
-        "800": "#6b21a8",
-        "900": "#581c87"
-      },
+      "purple": "#CE92A9",
       "fuchsia": {
         "50": "#fdf4ff",
         "100": "#fae8ff",
@@ -2323,8 +2197,12 @@ module.exports = {
       "inherit": "inherit",
       "current": "currentColor",
       "transparent": "transparent",
-      "black": "#000",
-      "white": "#fff",
+      "black": {
+        "60": "#2E2E32",
+        "80": "#181818",
+        "100": "#000000"
+      },
+      "white": "#FFFFFF",
       "slate": {
         "50": "#f8fafc",
         "100": "#f1f5f9",
@@ -2445,18 +2323,7 @@ module.exports = {
         "800": "#3f6212",
         "900": "#365314"
       },
-      "green": {
-        "50": "#f0fdf4",
-        "100": "#dcfce7",
-        "200": "#bbf7d0",
-        "300": "#86efac",
-        "400": "#4ade80",
-        "500": "#22c55e",
-        "600": "#16a34a",
-        "700": "#15803d",
-        "800": "#166534",
-        "900": "#14532d"
-      },
+      "green": "#6A8469",
       "emerald": {
         "50": "#ecfdf5",
         "100": "#d1fae5",
@@ -2541,18 +2408,7 @@ module.exports = {
         "800": "#5b21b6",
         "900": "#4c1d95"
       },
-      "purple": {
-        "50": "#faf5ff",
-        "100": "#f3e8ff",
-        "200": "#e9d5ff",
-        "300": "#d8b4fe",
-        "400": "#c084fc",
-        "500": "#a855f7",
-        "600": "#9333ea",
-        "700": "#7e22ce",
-        "800": "#6b21a8",
-        "900": "#581c87"
-      },
+      "purple": "#CE92A9",
       "fuchsia": {
         "50": "#fdf4ff",
         "100": "#fae8ff",
@@ -2853,8 +2709,12 @@ module.exports = {
       "inherit": "inherit",
       "current": "currentColor",
       "transparent": "transparent",
-      "black": "#000",
-      "white": "#fff",
+      "black": {
+        "60": "#2E2E32",
+        "80": "#181818",
+        "100": "#000000"
+      },
+      "white": "#FFFFFF",
       "slate": {
         "50": "#f8fafc",
         "100": "#f1f5f9",
@@ -2975,18 +2835,7 @@ module.exports = {
         "800": "#3f6212",
         "900": "#365314"
       },
-      "green": {
-        "50": "#f0fdf4",
-        "100": "#dcfce7",
-        "200": "#bbf7d0",
-        "300": "#86efac",
-        "400": "#4ade80",
-        "500": "#22c55e",
-        "600": "#16a34a",
-        "700": "#15803d",
-        "800": "#166534",
-        "900": "#14532d"
-      },
+      "green": "#6A8469",
       "emerald": {
         "50": "#ecfdf5",
         "100": "#d1fae5",
@@ -3071,18 +2920,7 @@ module.exports = {
         "800": "#5b21b6",
         "900": "#4c1d95"
       },
-      "purple": {
-        "50": "#faf5ff",
-        "100": "#f3e8ff",
-        "200": "#e9d5ff",
-        "300": "#d8b4fe",
-        "400": "#c084fc",
-        "500": "#a855f7",
-        "600": "#9333ea",
-        "700": "#7e22ce",
-        "800": "#6b21a8",
-        "900": "#581c87"
-      },
+      "purple": "#CE92A9",
       "fuchsia": {
         "50": "#fdf4ff",
         "100": "#fae8ff",
@@ -3600,8 +3438,12 @@ module.exports = {
       "inherit": "inherit",
       "current": "currentColor",
       "transparent": "transparent",
-      "black": "#000",
-      "white": "#fff",
+      "black": {
+        "60": "#2E2E32",
+        "80": "#181818",
+        "100": "#000000"
+      },
+      "white": "#FFFFFF",
       "slate": {
         "50": "#f8fafc",
         "100": "#f1f5f9",
@@ -3722,18 +3564,7 @@ module.exports = {
         "800": "#3f6212",
         "900": "#365314"
       },
-      "green": {
-        "50": "#f0fdf4",
-        "100": "#dcfce7",
-        "200": "#bbf7d0",
-        "300": "#86efac",
-        "400": "#4ade80",
-        "500": "#22c55e",
-        "600": "#16a34a",
-        "700": "#15803d",
-        "800": "#166534",
-        "900": "#14532d"
-      },
+      "green": "#6A8469",
       "emerald": {
         "50": "#ecfdf5",
         "100": "#d1fae5",
@@ -3818,18 +3649,7 @@ module.exports = {
         "800": "#5b21b6",
         "900": "#4c1d95"
       },
-      "purple": {
-        "50": "#faf5ff",
-        "100": "#f3e8ff",
-        "200": "#e9d5ff",
-        "300": "#d8b4fe",
-        "400": "#c084fc",
-        "500": "#a855f7",
-        "600": "#9333ea",
-        "700": "#7e22ce",
-        "800": "#6b21a8",
-        "900": "#581c87"
-      },
+      "purple": "#CE92A9",
       "fuchsia": {
         "50": "#fdf4ff",
         "100": "#fae8ff",
@@ -3888,8 +3708,12 @@ module.exports = {
       "inherit": "inherit",
       "current": "currentColor",
       "transparent": "transparent",
-      "black": "#000",
-      "white": "#fff",
+      "black": {
+        "60": "#2E2E32",
+        "80": "#181818",
+        "100": "#000000"
+      },
+      "white": "#FFFFFF",
       "slate": {
         "50": "#f8fafc",
         "100": "#f1f5f9",
@@ -4010,18 +3834,7 @@ module.exports = {
         "800": "#3f6212",
         "900": "#365314"
       },
-      "green": {
-        "50": "#f0fdf4",
-        "100": "#dcfce7",
-        "200": "#bbf7d0",
-        "300": "#86efac",
-        "400": "#4ade80",
-        "500": "#22c55e",
-        "600": "#16a34a",
-        "700": "#15803d",
-        "800": "#166534",
-        "900": "#14532d"
-      },
+      "green": "#6A8469",
       "emerald": {
         "50": "#ecfdf5",
         "100": "#d1fae5",
@@ -4106,18 +3919,7 @@ module.exports = {
         "800": "#5b21b6",
         "900": "#4c1d95"
       },
-      "purple": {
-        "50": "#faf5ff",
-        "100": "#f3e8ff",
-        "200": "#e9d5ff",
-        "300": "#d8b4fe",
-        "400": "#c084fc",
-        "500": "#a855f7",
-        "600": "#9333ea",
-        "700": "#7e22ce",
-        "800": "#6b21a8",
-        "900": "#581c87"
-      },
+      "purple": "#CE92A9",
       "fuchsia": {
         "50": "#fdf4ff",
         "100": "#fae8ff",
@@ -4174,8 +3976,12 @@ module.exports = {
       "inherit": "inherit",
       "current": "currentColor",
       "transparent": "transparent",
-      "black": "#000",
-      "white": "#fff",
+      "black": {
+        "60": "#2E2E32",
+        "80": "#181818",
+        "100": "#000000"
+      },
+      "white": "#FFFFFF",
       "slate": {
         "50": "#f8fafc",
         "100": "#f1f5f9",
@@ -4296,18 +4102,7 @@ module.exports = {
         "800": "#3f6212",
         "900": "#365314"
       },
-      "green": {
-        "50": "#f0fdf4",
-        "100": "#dcfce7",
-        "200": "#bbf7d0",
-        "300": "#86efac",
-        "400": "#4ade80",
-        "500": "#22c55e",
-        "600": "#16a34a",
-        "700": "#15803d",
-        "800": "#166534",
-        "900": "#14532d"
-      },
+      "green": "#6A8469",
       "emerald": {
         "50": "#ecfdf5",
         "100": "#d1fae5",
@@ -4392,18 +4187,7 @@ module.exports = {
         "800": "#5b21b6",
         "900": "#4c1d95"
       },
-      "purple": {
-        "50": "#faf5ff",
-        "100": "#f3e8ff",
-        "200": "#e9d5ff",
-        "300": "#d8b4fe",
-        "400": "#c084fc",
-        "500": "#a855f7",
-        "600": "#9333ea",
-        "700": "#7e22ce",
-        "800": "#6b21a8",
-        "900": "#581c87"
-      },
+      "purple": "#CE92A9",
       "fuchsia": {
         "50": "#fdf4ff",
         "100": "#fae8ff",
@@ -4445,8 +4229,12 @@ module.exports = {
       "inherit": "inherit",
       "current": "currentColor",
       "transparent": "transparent",
-      "black": "#000",
-      "white": "#fff",
+      "black": {
+        "60": "#2E2E32",
+        "80": "#181818",
+        "100": "#000000"
+      },
+      "white": "#FFFFFF",
       "slate": {
         "50": "#f8fafc",
         "100": "#f1f5f9",
@@ -4567,18 +4355,7 @@ module.exports = {
         "800": "#3f6212",
         "900": "#365314"
       },
-      "green": {
-        "50": "#f0fdf4",
-        "100": "#dcfce7",
-        "200": "#bbf7d0",
-        "300": "#86efac",
-        "400": "#4ade80",
-        "500": "#22c55e",
-        "600": "#16a34a",
-        "700": "#15803d",
-        "800": "#166534",
-        "900": "#14532d"
-      },
+      "green": "#6A8469",
       "emerald": {
         "50": "#ecfdf5",
         "100": "#d1fae5",
@@ -4663,18 +4440,7 @@ module.exports = {
         "800": "#5b21b6",
         "900": "#4c1d95"
       },
-      "purple": {
-        "50": "#faf5ff",
-        "100": "#f3e8ff",
-        "200": "#e9d5ff",
-        "300": "#d8b4fe",
-        "400": "#c084fc",
-        "500": "#a855f7",
-        "600": "#9333ea",
-        "700": "#7e22ce",
-        "800": "#6b21a8",
-        "900": "#581c87"
-      },
+      "purple": "#CE92A9",
       "fuchsia": {
         "50": "#fdf4ff",
         "100": "#fae8ff",
@@ -4903,8 +4669,12 @@ module.exports = {
       "inherit": "inherit",
       "current": "currentColor",
       "transparent": "transparent",
-      "black": "#000",
-      "white": "#fff",
+      "black": {
+        "60": "#2E2E32",
+        "80": "#181818",
+        "100": "#000000"
+      },
+      "white": "#FFFFFF",
       "slate": {
         "50": "#f8fafc",
         "100": "#f1f5f9",
@@ -5025,18 +4795,7 @@ module.exports = {
         "800": "#3f6212",
         "900": "#365314"
       },
-      "green": {
-        "50": "#f0fdf4",
-        "100": "#dcfce7",
-        "200": "#bbf7d0",
-        "300": "#86efac",
-        "400": "#4ade80",
-        "500": "#22c55e",
-        "600": "#16a34a",
-        "700": "#15803d",
-        "800": "#166534",
-        "900": "#14532d"
-      },
+      "green": "#6A8469",
       "emerald": {
         "50": "#ecfdf5",
         "100": "#d1fae5",
@@ -5121,18 +4880,7 @@ module.exports = {
         "800": "#5b21b6",
         "900": "#4c1d95"
       },
-      "purple": {
-        "50": "#faf5ff",
-        "100": "#f3e8ff",
-        "200": "#e9d5ff",
-        "300": "#d8b4fe",
-        "400": "#c084fc",
-        "500": "#a855f7",
-        "600": "#9333ea",
-        "700": "#7e22ce",
-        "800": "#6b21a8",
-        "900": "#581c87"
-      },
+      "purple": "#CE92A9",
       "fuchsia": {
         "50": "#fdf4ff",
         "100": "#fae8ff",
@@ -5179,8 +4927,12 @@ module.exports = {
       "inherit": "inherit",
       "current": "currentColor",
       "transparent": "transparent",
-      "black": "#000",
-      "white": "#fff",
+      "black": {
+        "60": "#2E2E32",
+        "80": "#181818",
+        "100": "#000000"
+      },
+      "white": "#FFFFFF",
       "slate": {
         "50": "#f8fafc",
         "100": "#f1f5f9",
@@ -5301,18 +5053,7 @@ module.exports = {
         "800": "#3f6212",
         "900": "#365314"
       },
-      "green": {
-        "50": "#f0fdf4",
-        "100": "#dcfce7",
-        "200": "#bbf7d0",
-        "300": "#86efac",
-        "400": "#4ade80",
-        "500": "#22c55e",
-        "600": "#16a34a",
-        "700": "#15803d",
-        "800": "#166534",
-        "900": "#14532d"
-      },
+      "green": "#6A8469",
       "emerald": {
         "50": "#ecfdf5",
         "100": "#d1fae5",
@@ -5397,18 +5138,7 @@ module.exports = {
         "800": "#5b21b6",
         "900": "#4c1d95"
       },
-      "purple": {
-        "50": "#faf5ff",
-        "100": "#f3e8ff",
-        "200": "#e9d5ff",
-        "300": "#d8b4fe",
-        "400": "#c084fc",
-        "500": "#a855f7",
-        "600": "#9333ea",
-        "700": "#7e22ce",
-        "800": "#6b21a8",
-        "900": "#581c87"
-      },
+      "purple": "#CE92A9",
       "fuchsia": {
         "50": "#fdf4ff",
         "100": "#fae8ff",
@@ -5450,8 +5180,12 @@ module.exports = {
       "inherit": "inherit",
       "current": "currentColor",
       "transparent": "transparent",
-      "black": "#000",
-      "white": "#fff",
+      "black": {
+        "60": "#2E2E32",
+        "80": "#181818",
+        "100": "#000000"
+      },
+      "white": "#FFFFFF",
       "slate": {
         "50": "#f8fafc",
         "100": "#f1f5f9",
@@ -5572,18 +5306,7 @@ module.exports = {
         "800": "#3f6212",
         "900": "#365314"
       },
-      "green": {
-        "50": "#f0fdf4",
-        "100": "#dcfce7",
-        "200": "#bbf7d0",
-        "300": "#86efac",
-        "400": "#4ade80",
-        "500": "#22c55e",
-        "600": "#16a34a",
-        "700": "#15803d",
-        "800": "#166534",
-        "900": "#14532d"
-      },
+      "green": "#6A8469",
       "emerald": {
         "50": "#ecfdf5",
         "100": "#d1fae5",
@@ -5668,18 +5391,7 @@ module.exports = {
         "800": "#5b21b6",
         "900": "#4c1d95"
       },
-      "purple": {
-        "50": "#faf5ff",
-        "100": "#f3e8ff",
-        "200": "#e9d5ff",
-        "300": "#d8b4fe",
-        "400": "#c084fc",
-        "500": "#a855f7",
-        "600": "#9333ea",
-        "700": "#7e22ce",
-        "800": "#6b21a8",
-        "900": "#581c87"
-      },
+      "purple": "#CE92A9",
       "fuchsia": {
         "50": "#fdf4ff",
         "100": "#fae8ff",
@@ -5963,6 +5675,9 @@ module.exports = {
       "40": "40",
       "50": "50",
       "auto": "auto"
+    },
+    "textShadow": {
+      "text-shadow-default": "2px 2px 20px rgba(0, 0, 0, 0.25)"
     }
   },
   "corePlugins": [
@@ -6142,6 +5857,11 @@ module.exports = {
   "content": {
     "relative": false,
     "files": [
+      "./components/**/*.{js,vue,ts}",
+      "./layouts/**/*.vue",
+      "./pages/**/*.vue",
+      "./plugins/**/*.{js,ts}",
+      "./app.vue",
       "/Users/krystofcernik/Desktop/coding/PROJECTS/quintbike_2/components/**/*.{vue,js,ts}",
       "/Users/krystofcernik/Desktop/coding/PROJECTS/quintbike_2/layouts/**/*.vue",
       "/Users/krystofcernik/Desktop/coding/PROJECTS/quintbike_2/pages/**/*.vue",

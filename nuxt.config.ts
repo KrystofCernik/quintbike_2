@@ -5,6 +5,10 @@ export default defineNuxtConfig({
         '@nuxtjs/html-validator',
         '@nuxt/image-edge',
         'nuxt-icons',
-    ],    
+    ],
+    css: [
+        '~/assets/css/tailwind.css',
+        '~/assets/css/typography.css',
+    ], 
 })
 

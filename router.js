@@ -1,3 +1,7 @@
+import Vue from 'vue'
+import Router from 'vue-router'
+// import axios from 'axios'
+
 import Homepage from '~/pages/index'
 
 Vue.use(Router)

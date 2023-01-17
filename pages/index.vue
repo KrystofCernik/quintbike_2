@@ -1,6 +1,55 @@
 <template>
-  <div class="main h-screen w-full bg-green-100 flex items-start justify-start p-8">
-    <h1 class="text-7xl">Welcome<br>to<br><span class="font-bold text-[10rem]">NUXT3</span><br>starter pack</h1>
+  <div>
+
+    <Hero
+      title="POJĎME JEZDIT SPOLEČNĚ"
+      subtitle="Stavíme karbonová kola na míru"
+    />
+
+    <Container>
+
+      <Section>
+        <TextBlock
+          title="Prouzkoumejte možnosti"
+          description="Lorem ipsum Lorem ipsum vLorem ipsum Lorem ipsLorem ipsum Lorem ipsum vLorem ipsum Lorem ipsum vLorem ipsum Lorem ipsum vLorem ipsum Lorem ipsum vLorem ipsum Lorem ipsum vLorem ipsum Lorem ipsum vLorem ipsum Lorem ipsum vum vLorem ipsum Lorem ipsum v  "
+        />
+        <Image 
+          image="~/assets/images/1.jpg"
+          description="quint gravel slx 12x1"
+        />
+      </Section>
+
+      <Section>
+        <TextBlock
+          description="Lorem ipsum Lorem ipsum vLorem ipsum Lorem ipsLorem ipsum Lorem ipsum vLorem ipsum Lorem ipsum vLorem ipsum Lorem ipsum vLorem ipsum Lorem ipsum vLorem ipsum Lorem ipsum vLorem ipsum Lorem ipsum vLorem ipsum Lorem ipsum vum vLorem ipsum Lorem ipsum v  "
+          class="order-last text-right"
+        />
+        <Image 
+          image="~/assets/images/1.jpg"
+          description="quint gravel slx 12x1"
+        />
+      </Section>
+
+      <Section textOnly>
+        <TextBlock
+          description="Lorem ipsum Lorem ipsum vLorem ipsum Lorem ipsLorem ipsum Lorem ipsum vLorem ipsum Lorem ipsum vLorem ipsum Lorem ipsum vLorem ipsum Lorem ipsum vLorem ipsum Lorem ipsum vLorem ipsum Lorem ipsum vLorem ipsum Lorem ipsum vum vLorem ipsum Lorem ipsum v  "
+        />
+      </Section>
+
+      <TripleSection>
+        <CustomCard
+        
+        />
+        <CustomCard
+        
+        />
+        <CustomCard
+        
+        />
+      </TripleSection>
+
+    </Container>
+
   </div>
 </template>
 
