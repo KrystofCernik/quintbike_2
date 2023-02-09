@@ -45,7 +45,6 @@
         console.log(filteredItems)
     } else {
         filteredItems.value.filter(item => item.category?.name.toLowerCase() === 'zakázkové stavby')
-        console.log(filteredItems)
     }
   }
 
