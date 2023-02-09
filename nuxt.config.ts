@@ -12,6 +12,9 @@ export default defineNuxtConfig({
         '~/assets/css/typography.css',
         '~/assets/css/transitions.css',
     ],
+    nitro: {
+        preset: 'netlify-edge',
+    },
     // runtimeConfig: {
     //     public: {
     //       apiBase: '/api'
