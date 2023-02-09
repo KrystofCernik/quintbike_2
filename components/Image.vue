@@ -2,11 +2,12 @@
   <div>
     <nuxt-img
         :src="image"
-        width="100%"
+        class="w-full object-cover"
+        :style="`height: ${height};`"
         format="jpg"
         preload
     />
-    <p class="small text-grey">{{ description }}</p>
+    <p class="small text-grey-100">{{ description }}</p>
   </div>
 </template>
 
@@ -21,10 +22,11 @@ export default {
         description: {
             type: String,
             default: null
+        },
+        height: {
+            type: String,
+            default: 'auto'
         }
-    },
-    mounted() {
-        console.log(this.image)
     }
 }
 </script>

@@ -1,14 +1,16 @@
 <template>
-  <div class="custom-card w-full bg-white flex flex-col items-center gap-2">
-    <!-- <nuxt-img/> -->
-    <h3>Lorem ipsum</h3>
-    <p class="small text-center px-10">Lorem ipsum Lorem ipsum vLorem ipsum Lorem ipsLorem ipsum Lorem ipsum vLorem ipsum </p>
-    <nuxt-link
-        :to="''"
-        class="underline small"
-    >
-        Lorem ipsum
-    </nuxt-link>
+  <div class="custom-card w-full bg-white flex flex-col items-center gap-6 py-10">
+    <nuxt-img
+        class="w-3/4"
+        :src="image"
+        format="jpg"
+        preload
+    />
+    <h3>{{ title }}</h3>
+    <p class="small text-center w-3/4">{{ description }}</p>
+    <SimpleLink
+        :to="to"
+    />
   </div>
 </template>
 
@@ -29,7 +31,7 @@ export default {
             default: null
         },
         to: {
-            type: String,
+            type: [String, Object],
             default: ''
         }
     }

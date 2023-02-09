@@ -3,50 +3,80 @@ h1 {
     font-size: 2.5rem;
     font-weight: 400;
     text-tranform: uppercase;
+    font-family: 'Chillax', Arial, Helvetica, sans-serif;
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 500;
+    font-family: 'Chillax', Arial, Helvetica, sans-serif;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 500;
+    font-family: 'Chillax', Arial, Helvetica, sans-serif;
 }
 
 h4 {
-    font-size: 2rem;
-    font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: 'Chillax', Arial, Helvetica, sans-serif;
 }
 
 h5 {
-    font-size: 3.75rem;
+    font-size: 3rem;
     font-weight: 400;
+    font-family: 'Chillax', Arial, Helvetica, sans-serif;
 }
 
 p,
 a,
-span {
-    font-size: 1.75rem;
-    font-weight: 300; 
+span,
+label {
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-family: 'Chillax', Arial, Helvetica, sans-serif;
+}
+
+p.big,
+a.big,
+span.big,
+label.big {
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: 'Chillax', Arial, Helvetica, sans-serif;
 }
 
 p.small,
 a.small,
 span.small {
-    font-size: 1.25rem;
-    font-weight: 300; 
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Chillax', Arial, Helvetica, sans-serif;
 }
 
 p.tiny,
 a.tiny,
 span.tiny {
     font-size: 0.75rem;
-    font-weight: 300; 
+    font-weight: 300;
+    font-family: 'Chillax', Arial, Helvetica, sans-serif;
+}
+
+a.menu-link {
+    font-size: 2.188rem;
+    font-weight: 400;
+    font-family: 'Chillax', Arial, Helvetica, sans-serif;
+    color: #333333;
+
+    &:hover {
+        color: #000;
+    }
 }
 
 a {
     text-decoration: none;
     color: #000;
+    font-family: 'Chillax', Arial, Helvetica, sans-serif;
 }

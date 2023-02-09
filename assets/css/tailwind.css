@@ -6,4 +6,16 @@
     .transition-default {
         @apply transition-all duration-150 ease-linear
     }
+
+    .transition-ease {
+        @apply transition-all duration-150 ease-in
+    }
+
+    .transition-ease-out {
+        @apply transition-all duration-150 ease-out
+    }
+
+    .transition-linear {
+        @apply transition-all duration-200 ease-linear
+    }
 }

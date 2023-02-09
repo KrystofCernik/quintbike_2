@@ -512,9 +512,17 @@ const errorHandler = (async function errorhandler(error, event) {
   event.node.res.end(await res.text());
 });
 
+const _lazy_JvOmW9 = () => Promise.resolve().then(function () { return products$1; });
+const _lazy_FfO8jS = () => Promise.resolve().then(function () { return pages$1; });
+const _lazy_tVtxi0 = () => Promise.resolve().then(function () { return categories$1; });
+const _lazy_OkoCZq = () => Promise.resolve().then(function () { return articles$1; });
 const _lazy_xkyhgG = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
+  { route: '/api/products', handler: _lazy_JvOmW9, lazy: true, middleware: false, method: undefined },
+  { route: '/api/pages', handler: _lazy_FfO8jS, lazy: true, middleware: false, method: undefined },
+  { route: '/api/categories', handler: _lazy_tVtxi0, lazy: true, middleware: false, method: undefined },
+  { route: '/api/articles', handler: _lazy_OkoCZq, lazy: true, middleware: false, method: undefined },
   { route: '/__nuxt_error', handler: _lazy_xkyhgG, lazy: true, middleware: false, method: undefined },
   { route: '/**', handler: _lazy_xkyhgG, lazy: true, middleware: false, method: undefined }
 ];
@@ -591,6 +599,46 @@ server.listen(listenAddress, () => {
   process.on("unhandledRejection", (err) => console.error("[nitro] [dev] [unhandledRejection]", err));
   process.on("uncaughtException", (err) => console.error("[nitro] [dev] [uncaughtException]", err));
 }
+
+const products = defineEventHandler(async () => {
+  const data = await $fetch("https://quintbike-api.haim.eu/products");
+  return data;
+});
+
+const products$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  'default': products
+});
+
+const pages = defineEventHandler(async () => {
+  const data = await $fetch("https://quintbike-api.haim.eu/pages");
+  return data;
+});
+
+const pages$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  'default': pages
+});
+
+const categories = defineEventHandler(async () => {
+  const data = await $fetch("https://quintbike-api.haim.eu/categories");
+  return data;
+});
+
+const categories$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  'default': categories
+});
+
+const articles = defineEventHandler(async () => {
+  const data = await $fetch("https://quintbike-api.haim.eu/articles");
+  return data;
+});
+
+const articles$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  'default': articles
+});
 
 const appRootId = "__nuxt";
 

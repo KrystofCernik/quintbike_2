@@ -1,10 +1,9 @@
 <template>
   <div
-    class="w-full grid grid-cols-2 py-24"
+    class="w-full flex flex-col md:grid md:grid-cols-2 gap-x-24 my-24"
     :class="[
-        //{ '!grid-cols-3': imageWide },
-        { '!grid-cols-1 text-center px-64': textOnly },
-        { '!grid-cols-1 text-left': statement },
+        { 'md:!grid-cols-1 text-center md:px-64': textOnly },
+        { '!grid-cols-1 text-left': statement }
     ]"
   >
     <slot/>

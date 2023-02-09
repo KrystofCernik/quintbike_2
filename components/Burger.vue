@@ -11,7 +11,7 @@
         :class="[
             { 'translate-y-0  rotate-45 w-[30px] opacity-80': showMenu },
             { 'w-[30px] !opacity-100': hovered },
-            { 'bg-white': dark }
+            { 'bg-white': dark || $route.name === 'contact' && !showMenu }
         ]"
     ></span>
     <span 
@@ -19,14 +19,14 @@
         :class="[
             { '!translate-y-0  -rotate-45 !w-[30px] opacity-80': showMenu },
             { '!w-[30px] !opacity-100': hovered },
-            { 'bg-white': dark }
+            { 'bg-white': dark || $route.name === 'contact' && !showMenu }
         ]"
     ></span>
     <span
         class="absolute w-[30px] h-[2px] bg-black-100 border-none transition-default"
         :class="[
             { 'translate-x-[70px]': showMenu },
-            { 'bg-white': dark }
+            { 'bg-white': dark || $route.name === 'contact' && !showMenu }
         ]"
     ></span>
   </div>
@@ -50,6 +50,9 @@ export default {
     watch: {
         showMenu() {
             this.$emit('openMenu', this.showMenu)
+        },
+        '$route'() {
+            this.showMenu = false
         }
     }
 }

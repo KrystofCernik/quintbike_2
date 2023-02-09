@@ -1839,6 +1839,13 @@ dom-serializer@^1.0.1:
     domhandler "^4.2.0"
     entities "^2.0.0"
 
+dom7@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/dom7/-/dom7-4.0.4.tgz#8b68c5d8e5e2ed0fddb1cb93e433bc9060c8f3fb"
+  integrity sha512-DSSgBzQ4rJWQp1u6o+3FVwMNnT5bzQbMb+o31TjYYeRi05uAcpF8koxdfzeoe5ElzPmua7W7N28YJhF7iEKqIw==
+  dependencies:
+    ssr-window "^4.0.0"
+
 domelementtype@^2.0.1, domelementtype@^2.2.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-2.3.0.tgz#5c45e8e869952626331d7aab326d01daf65d589d"
@@ -2449,6 +2456,11 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4, 
   version "4.2.10"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
+
+gsap@^3.11.4:
+  version "3.11.4"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.11.4.tgz#e6d972d3509a7431b86d81d6fc3bbeb6862e5ff1"
+  integrity sha512-McHhEguHyExMMnjqKA8G+7TvxmlKQGMbjgwAilnFe1e4id7V/tFveRQ2YMZhTYu0oxHGWvbPltdVYQOu3z1SCA==
 
 gzip-size@^7.0.0:
   version "7.0.0"
@@ -3561,6 +3573,14 @@ nuxt-icons@^3.0.0:
   integrity sha512-7F9/uug7T23d2IGsmz0Jyi4gw86HRZeuzfxC1+e5vsAfQ4MhUMRaANki+uDgiUWub1y5TsclxptG06EH1e3bRQ==
   dependencies:
     "@nuxt/kit" "^3.0.0"
+
+nuxt-swiper@^0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/nuxt-swiper/-/nuxt-swiper-0.1.9.tgz#9d67b1c4af228c63d1e61a907d5d56b8c6b1a56f"
+  integrity sha512-RScozYZQb0kYiCNJF6y9ol/q/ugtN3u3GsZdC0aN2gLL4uLqJ/iIKtw5wQaeMcgrSLRzY1SRO26kpKVkkWtGVg==
+  dependencies:
+    "@nuxt/kit" "^3.0.0"
+    swiper "^8.4.5"
 
 nuxt@3.0.0:
   version "3.0.0"
@@ -4683,6 +4703,11 @@ sourcemap-codec@^1.4.8:
   resolved "https://registry.yarnpkg.com/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz#ea804bd94857402e6992d05a38ef1ae35a9ab4c4"
   integrity sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==
 
+ssr-window@^4.0.0, ssr-window@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/ssr-window/-/ssr-window-4.0.2.tgz#dc6b3ee37be86ac0e3ddc60030f7b3bc9b8553be"
+  integrity sha512-ISv/Ch+ig7SOtw7G2+qkwfVASzazUnvlDTwypdLoPoySv+6MqlOV10VwPSE6EWkGjhW50lUmghPmpYZXMu/+AQ==
+
 stable@^0.1.8:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/stable/-/stable-0.1.8.tgz#836eb3c8382fe2936feaf544631017ce7d47a3cf"
@@ -4820,6 +4845,14 @@ svgo@^2.7.0:
     csso "^4.2.0"
     picocolors "^1.0.0"
     stable "^0.1.8"
+
+swiper@^8.4.5:
+  version "8.4.6"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-8.4.6.tgz#5b52c83cb4aa9ce6f1640e44d3f93ff4ea6f7682"
+  integrity sha512-HACW035vBz2T6Kfut23EAzXhcDpgR8doX+wjq0ZUvJgS5SQApGrV885DAPLBFnmPUISsAhNSVxPKDxqroFvXvQ==
+  dependencies:
+    dom7 "^4.0.4"
+    ssr-window "^4.0.2"
 
 tailwind-config-viewer@^1.7.2:
   version "1.7.2"

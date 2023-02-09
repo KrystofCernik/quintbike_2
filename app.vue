@@ -4,7 +4,6 @@
       @openMenu="handleOpenMenu"
     />
     <Menu
-      v-if="showMenu"
       :showMenu="showMenu"
     />
     <NuxtPage />
@@ -13,6 +12,11 @@
 </template>
 
 <script>
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
+gsap.registerPlugin(ScrollTrigger)
+
 export default {
     data() {
         return {
@@ -31,10 +35,6 @@ export default {
 
 body, html {
   scroll-behavior: smooth;
-}
-
-body {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 </style>

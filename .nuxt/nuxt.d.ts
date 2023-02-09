@@ -3,6 +3,7 @@
 /// <reference types="@nuxtjs/html-validator" />
 /// <reference types="@nuxt/image-edge" />
 /// <reference types="nuxt-icons" />
+/// <reference types="nuxt-swiper" />
 /// <reference types="@nuxt/telemetry" />
 /// <reference types="nuxt" />
 /// <reference path="types/plugins.d.ts" />

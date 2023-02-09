@@ -14,7 +14,10 @@
             <h5 class="heading5">Newsletter</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             <input type="email" placeholder="email..">
-            <button class="btn btn--light">Odeslat</button>
+            <Button
+                type="secondary"
+                label="Odeslat"
+            />
             <p class="conditions">Odběrem souhlasíte se zpracováním osobních údajů a všeobecnými obchodními podmínkami společnosti</p>
         </div>
     </div>
@@ -38,7 +41,9 @@
 </template>
 
 <script>
+import Button from './Button.vue'
 export default {
+  components: { Button },
     name: 'Footer'
 }
 </script>
@@ -54,6 +59,15 @@ export default {
         "block-1 block-1 block-1 block-2 block-2 block-2"
         "block-3 block-3 block-4 block-4 block-5 block-5"
         "block-6 block-6 block-6 block-6 block-6 block-6";
+
+    @media (max-width: 768px) {
+        grid-template-rows: 1fr 2fr 0.5fr 0.5fr; 
+        grid-template-areas: 
+            "block-1 block-1 block-1 block-1 block-1 block-1"
+            "block-2 block-2 block-2 block-2 block-2 block-2"
+            "block-3 block-3 block-4 block-4 block-5 block-5"
+            "block-6 block-6 block-6 block-6 block-6 block-6";
+    }
 
     .socials {
         position: relative;
@@ -93,19 +107,19 @@ export default {
         padding-top: 50px;
         padding-left: 60px;
 
-        // @include lt {
-        //     padding: 20px 60px;
-        //     justify-content: center;
-        // }
+        @media (max-width: 1024px) {
+            padding: 20px 60px;
+            justify-content: center;
+        }
 
         li {
             font-size: 20px;
             margin-top: 30px;
 
-            // @include lm {
-            //     font-size: 0.8rem;
-            //     margin-top: 15px;
-            // }
+            @media (max-width: 768px) {
+                font-size: 0.8rem;
+                margin-top: 15px;
+            }
         }
     }
 
@@ -113,9 +127,9 @@ export default {
         grid-area: block-2;
         padding: 50px 60px;
 
-        // @include lm {
-        //     padding: 20px 60px;
-        // }
+        @media (max-width: 768px) {
+            padding: 20px 60px;
+        }
 
         .newsletter__wrapper {
             height: 100%;
@@ -124,9 +138,9 @@ export default {
             flex-direction: column;
             align-items: flex-start;
 
-            // @include lt {
-            //     justify-content: center;
-            // }
+            @media (max-width: 1024px) {
+                justify-content: center;
+            }
 
             p {
                 margin: 30px 0;
@@ -148,19 +162,19 @@ export default {
                     border-bottom: 2px solid #959494;
                 }
 
-                // @include lm {
-                //     font-size: 1rem;
-                //     padding: 0.8rem;
-                // }
+                @media (max-width: 768px) {
+                    font-size: 1rem;
+                    padding: 0.8rem;
+                }
             }
 
             .conditions {
                 font-size: 13px;
                 color: #959494;
                 
-                // @include lm {
-                //     font-size: 0.7rem;
-                // }
+                @media (max-width: 768px) {
+                    font-size: 0.7rem;
+                }
             }
         }
     }

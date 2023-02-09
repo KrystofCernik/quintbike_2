@@ -1,5 +1,7 @@
 <template>
-  
+  <div class="contact">
+    <ContactSection/>
+  </div>
 </template>
 
 <script>
